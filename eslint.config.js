@@ -5,6 +5,7 @@ export default antfu({
   // Your custom rules and overrides can go here.
   // For example, to enable React support:
   // react: true,
+  node: true,
   // -------- Core Features --------
 
   // Enables stylistic rules for formatting.
