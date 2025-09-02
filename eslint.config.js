@@ -16,9 +16,13 @@ export default antfu({
     indent: 2,
     quotes: 'single', // Use single quotes of string
     semi: true, // Use semicolons at the end of statements
+    // This is the correct way to override stylistic rules
+    overrides: {
+      'style/brace-style': 'off',
+    },
   },
 
-  // Or to disable a specific rule:
+  // These are for non-stylistic rules
   rules: {
     'no-console': 'warn',
   },
