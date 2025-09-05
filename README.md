@@ -82,7 +82,8 @@ export default antfu({
   "tabWidth": 2,
   "singleQuote": true,
   "printWidth": 80,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "arrowParens": "avoid"
 }
 ```
 
